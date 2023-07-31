@@ -1,0 +1,25 @@
+.all-entries-tabs {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.all-entries-tabs__entries {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  color: var(--nemo, #ff4a11);
+}
+
+.all-entries-tabs__counter {
+  display: flex;
+  padding: 0px 9px 2px 9px;
+  gap: 10px;
+  border-radius: 999px;
+  color: var(--foam, #fff);
+  background: var(--nemo, #ff4a11);
+}
