@@ -10,16 +10,13 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
   color: var(--granite, #252629);
 }
 
 .all-entries-tabs__counter-fav {
-  display: flex;
   padding: 0px 9px 2px 9px;
   gap: 10px;
   border-radius: 999px;
   color: var(--granite, #252629);
-
   background: var(--water-10, #e4e8f0);
 }

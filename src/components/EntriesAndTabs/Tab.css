@@ -1,8 +1,6 @@
 .main-tab {
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 10px;
-  align-self: stretch;
-  height: 100%;
+  height: 24px;
 }

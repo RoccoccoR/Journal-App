@@ -4,9 +4,9 @@ import "./Tab.css";
 
 export default function Tab() {
   return (
-    <div className="main-tab">
+    <section className="main-tab">
       <AllEntriesTitle />
       <AllEntriesFavourites />
-    </div>
+    </section>
   );
 }
