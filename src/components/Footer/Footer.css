@@ -1,0 +1,13 @@
+@import "../../index.css";
+
+.footer-container {
+  height: 80px;
+  color: var(--color-granite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
