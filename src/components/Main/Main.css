@@ -3,3 +3,10 @@ main {
   flex-grow: 1;
   padding: 0 1 rem;
 }
+
+hr {
+  height: 2%;
+  width: 100%;
+  color: var(--color-water-10);
+  margin-top: 20px;
+}

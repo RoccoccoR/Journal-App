@@ -1,0 +1,21 @@
+.date-container {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.date-container p {
+  color: var(--granite, #252629);
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+  /* Headline Uppercase */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  text-transform: uppercase;
+}

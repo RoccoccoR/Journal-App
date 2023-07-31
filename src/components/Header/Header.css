@@ -11,7 +11,7 @@
   background: var(--water-10, #e4e8f0);
 }
 
-.header {
+header {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
