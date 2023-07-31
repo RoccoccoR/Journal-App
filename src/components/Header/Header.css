@@ -1,8 +1,20 @@
 .header-container {
-  height: 80px;
-  background-color: lightblue;
   display: flex;
-  align-items: center;
+  padding: 18px 16px;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
   z-index: 999;
+  color: var(--granite, #252629);
+  background: var(--water-10, #e4e8f0);
+}
+
+.header {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 112.5% */
+  text-transform: uppercase;
 }
