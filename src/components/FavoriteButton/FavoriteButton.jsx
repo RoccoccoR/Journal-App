@@ -1,7 +1,7 @@
 import "./FavoriteButton.css";
-import { ReactComponent as StarFilled } from "./star-filled.svg";
-import { ReactComponent as Star } from "./star.svg";
 import { useState } from "react";
+import FilledStar from "./FilledStar";
+import OutlineStar from "./OutlineStar";
 
 export default function FavoriteButton() {
   // Destructure the array returned by useState to get the state variable and the function to update it.
@@ -15,7 +15,7 @@ export default function FavoriteButton() {
         setIsFavorite((prevIsFavorite) => !prevIsFavorite);
       }}
       aria-label="favorite">
-      {isFavorite ? <StarFilled /> : <Star />}
+      {isFavorite ? <FilledStar /> : <OutlineStar />}
     </button>
   );
 }

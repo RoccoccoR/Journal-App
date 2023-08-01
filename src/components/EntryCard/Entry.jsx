@@ -1,4 +1,4 @@
-// import FavoriteButton from "../FavoriteButton/FavoriteButton";
+import FavoriteButton from "../FavoriteButton/FavoriteButton";
 import "./Entry.css";
 
 export default function EntryCard() {
@@ -9,7 +9,7 @@ export default function EntryCard() {
           <h3 className="entryCard-title">
             &ldquo;That&rsquo;s is life in the city&ldquo;
           </h3>
-          {/* <FavoriteButton /> */}
+          <FavoriteButton />
         </div>
         <p>
           Si sine causa? quae fuerit causa, mox videro; interea hoc tenebo, si
